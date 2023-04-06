@@ -1,0 +1,20 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<conio.h>
+long int morris(int n, int m){ 
+	 si (n==m){ 
+		Retorno (m+1); 
+	}
+	 más{
+		Regreso Morris(N,Morris(N-1,M+1));  
+	}
+}
+int main(){
+	int m,n;
+	printf("ingresa un valor para m");
+	scanf("%li",&m);
+	printf("ingresa un valor para n");
+	scanf("%li",&n);
+	printf("este es el valor de morris : %li",morris(n,m));
+	volver 0;
+}
